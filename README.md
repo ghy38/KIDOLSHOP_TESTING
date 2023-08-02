@@ -14,8 +14,8 @@ root
 |       |-- testcase			#Test cases are stored here
 |-- test-output				#Test report is stored here
 ```
-#Getting Started
-Use the following commands to clone the project
+# Getting Started
+Use the following commands to clone the project:
 ```
 https://github.com/ghy38/KIDOLSHOP_TESTING.git
 ```
