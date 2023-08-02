@@ -17,5 +17,5 @@ root
 # Getting Started
 Use the following commands to clone the project:
 ```
-https://github.com/ghy38/KIDOLSHOP_TESTING.git
+git clone https://github.com/ghy38/KIDOLSHOP_TESTING.git
 ```
