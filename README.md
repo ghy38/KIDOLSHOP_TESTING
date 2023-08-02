@@ -1,4 +1,4 @@
-# KIDOLSHOP_TESTING
+# Overall test automation framework design
 ```
 root
 |-- pom.xml
