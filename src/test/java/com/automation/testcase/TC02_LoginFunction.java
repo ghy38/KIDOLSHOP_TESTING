@@ -22,7 +22,7 @@ public class TC02_LoginFunction extends DriverInstance {
 	private String username = PropertiesFileUtils.getProperty("username");
 	private String password = PropertiesFileUtils.getProperty("password");
 	private String url = PropertiesFileUtils.getProperty("baseUrl"); 
-	private String registerPath = PropertiesFileUtils.getProperty("loginPat");
+	private String registerPath = PropertiesFileUtils.getProperty("loginPath");
 	
 	@Test
 	public void TC01_LoginWithValidAccount() throws InterruptedException {
