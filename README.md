@@ -19,3 +19,11 @@ Use the following commands to clone the project:
 ```
 git clone https://github.com/ghy38/KIDOLSHOP_TESTING.git
 ```
+# Run the Java Test
+1. Set up Environment variables
+  - [Maven](https://maven.apache.org/download.cgi)
+  - [JDK17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+2. Run the following command in KIDOLSHOP_TESTING dicrectory:
+```
+mvn clean test
+```
