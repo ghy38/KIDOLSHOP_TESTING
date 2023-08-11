@@ -50,6 +50,8 @@ public class TC01_RegisterFunction extends DriverInstance {
 		username = PropertiesFileUtils.getProperty("username");
 		password = PropertiesFileUtils.getProperty("password");
 		repassword = password;
+		
+		System.out.println("TC_Register: " +username);
 	
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		

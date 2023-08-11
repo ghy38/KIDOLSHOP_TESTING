@@ -19,8 +19,7 @@ import com.automation.utils.CaptureScreenshot;
 import com.automation.utils.PropertiesFileUtils;
 
 public class TC02_LoginFunction extends DriverInstance {
-	private String username = PropertiesFileUtils.getProperty("username");
-	private String password = PropertiesFileUtils.getProperty("password");
+	private String username, password;
 	private String url = PropertiesFileUtils.getProperty("baseUrl"); 
 	private String registerPath = PropertiesFileUtils.getProperty("loginPath");
 	
@@ -29,6 +28,11 @@ public class TC02_LoginFunction extends DriverInstance {
 		driver.get(url+registerPath);
 		
 		WebDriverWait wait = new WebDriverWait(driver, 15);
+		
+		username = PropertiesFileUtils.getProperty("username");
+		password = PropertiesFileUtils.getProperty("password");
+		
+		System.out.println("TC_Login: " +username);
 		
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.Login(username, password);
@@ -62,7 +66,7 @@ public class TC02_LoginFunction extends DriverInstance {
 	public Object[][] InvalidUsernameData(){
 		
 		return new Object[][] {
-			{username,"mdsm"},
+			{username,"123"},
 			{"sd",password},
 			{"mfk","123"}
 		};
