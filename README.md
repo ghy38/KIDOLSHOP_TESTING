@@ -12,7 +12,6 @@ root
 |   |   |-- utils			#Include support files such as: get & set property, capture screenshot,... 
 |   `-- test/java/com/aumation
 |       |-- testcase			#Test cases are stored here
-|-- test-output				#Test report is stored here
 ```
 # Getting Started
 Use the following commands to clone the project:
