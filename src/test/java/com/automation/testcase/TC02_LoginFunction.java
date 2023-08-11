@@ -32,8 +32,6 @@ public class TC02_LoginFunction extends DriverInstance {
 		username = PropertiesFileUtils.getProperty("username");
 		password = PropertiesFileUtils.getProperty("password");
 		
-		System.out.println("TC_Login: " +username);
-		
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.Login(username, password);
 		
