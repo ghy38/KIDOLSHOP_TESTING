@@ -35,10 +35,10 @@ public class TC02_LoginFunction extends DriverInstance {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.Login(username, password);
 		
-		WebElement avatarUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='http://kidolshop.space/logout']/../../..")));
+		WebElement avatarUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='http://kidolshop.click/logout']/../../..")));
 		avatarUser.click();
 		
-		WebElement btnLogout = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='http://kidolshop.space/logout']")));
+		WebElement btnLogout = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='http://kidolshop.click/logout']")));
 		assertTrue(btnLogout.getText().contains("Đăng Xuất"), "Login Failed!");
 		
 		btnLogout.click();
