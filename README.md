@@ -26,3 +26,9 @@ git clone https://github.com/ghy38/KIDOLSHOP_TESTING.git
 ```
 mvn clean test
 ```
+# View the report
+Run the following command in KIDOLSHOP_TESTING dicrectory:
+```
+1. cd target/surefire-reports/Suite
+2. start Test.html
+```
